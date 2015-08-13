@@ -1,6 +1,6 @@
 # For AT&T 340U modem
 #
-while ture
+while true
 do
   # Change /dev/ttyUSB0 to your USB device number
   echo -n "at+cfun=1" > /dev/ttyUSB0
